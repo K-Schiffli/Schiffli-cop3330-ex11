@@ -20,13 +20,13 @@ public class App {
     }
     public static String getEuros()
     {
-        System.out.printf( "How many euros are you exchanging? ");
+        System.out.print( "How many euros are you exchanging? ");
         return in.nextLine();
     }
 
     public static String getRate()
     {
-        System.out.printf( "What is the exchange rate? ");
+        System.out.print( "What is the exchange rate? ");
         return in.nextLine();
     }
 
