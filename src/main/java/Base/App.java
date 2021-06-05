@@ -39,7 +39,7 @@ public class App {
     {
         double dollars = eurosNum * rateNum;
         dollars *= 100;
-        Math.ceil(dollars);
+        dollars = Math.ceil(dollars);
         return dollars /= 100;
     }
 
